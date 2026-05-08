@@ -5,8 +5,7 @@ A fun interactive memory card game where players flip cards and match pairs usin
 ---
 
 ## Live Demo
-Add your GitHub Pages link here after deployment:
-https://your-username.github.io/Memory-Match-Game/
+[Memory Game](https://harpreetkaur2201.github.io/Memory-Match-Game/)
 
 ---
 
