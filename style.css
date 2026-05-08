@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: #ffffff url(img/geometry2.png);
+  padding: 0 10px;
+}
+
+h1 {
+  color: #0f3c5e;
+  font-size: 45px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+h1 span {
+  color: #006c5d;
+}
+
+.main-container {
+  background: #0f3c5e36;
+
+  max-width: 980px;
+  margin: 10px auto;
+  padding: 40px 0;
+
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 25px;
+  padding: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+  font-size: 2rem;
+}
+
+#score {
+  margin-left: 10px;
+  font-weight: 600;
+  color: #006c5d;
+}
+
+/* Restart Button */
+
+.restart {
+  margin-top: 30px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background: #006c5d;
+  color: white;
+
+  padding: 12px 22px;
+
+  border-radius: 10px;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.restart:hover {
+  background: #0f3c5e;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.restart:active {
+  transform: scale(0.97);
+}
+
+.fa-redo {
+  font-size: 0.95rem;
+  transition: transform 0.4s ease;
+}
+
+.restart:hover .fa-redo {
+  transform: rotate(180deg);
+}
+
+/* Cards Grid */
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 150px));
+  gap: 8px;
+}
+
+/* Next Card */
+
+#next-card {
+  width: 150px;
+  height: 150px;
+
+  margin: 15px auto;
+
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+
+  background: white;
+  color: #0f3c5e;
+
+  font-size: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Card */
+
+.card {
+  aspect-ratio: 1 / 1;
+
+  background: #0f3c5e;
+
+  border-radius: 10px;
+
+  font-size: 3rem;
+  color: white;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+}
+
+.card.show {
+  background: #006c5d;
+}
+
+.card.matched {
+  background: #c3e76a;
+  color: #2e3d49;
+}
+
+#cards .card i {
+  display: none;
+}
+
+#cards .card.show i,
+#cards .card.matched i {
+  display: block;
+}
+
+/* WIN POPUP */
+
+.win-popup {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.65);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.popup-content {
+  background: white;
+
+  width: 90%;
+  max-width: 360px;
+
+  padding: 40px 35px;
+
+  border-radius: 18px;
+
+  text-align: center;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+
+  animation: popupShow 0.3s ease;
+}
+
+/* Celebration Icons */
+
+.celebration-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+
+  margin-bottom: 20px;
+}
+
+.celebration-icons i {
+  font-size: 2.8rem;
+
+  animation: floatIcon 1.5s ease-in-out infinite;
+}
+
+.celebration-icons i:nth-child(1) {
+  color: #f4b400;
+}
+
+.celebration-icons i:nth-child(2) {
+  color: #006c5d;
+  animation-delay: 0.2s;
+}
+
+.celebration-icons i:nth-child(3) {
+  color: #0f3c5e;
+  animation-delay: 0.4s;
+}
+
+.popup-content h2 {
+  color: #0f3c5e;
+
+  font-size: 2rem;
+
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  margin-top: 10px;
+
+  color: #444;
+  font-size: 1.05rem;
+}
+
+.moves-text {
+  font-weight: 700;
+  color: #006c5d;
+}
+
+/* Play Again Button */
+
+#play-again-btn {
+  margin-top: 25px;
+
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #006c5d;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+#play-again-btn:hover {
+  background: #0f3c5e;
+
+  transform: scale(1.05);
+}
+
+/* Animations */
+
+@keyframes popupShow {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes floatIcon {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
