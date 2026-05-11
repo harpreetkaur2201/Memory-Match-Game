@@ -4,10 +4,7 @@ A fun interactive memory card game where players flip cards and match pairs usin
 
 ---
 
-## Live Demo
-[Memory Game](https://harpreetkaur2201.github.io/Memory-Match-Game/)
-
----
+## Live Demo [Memory Game](https://harpreetkaur2201.github.io/Memory-Match-Game/)
 
 ## Features
 - Card flip matching gameplay
@@ -18,15 +15,11 @@ A fun interactive memory card game where players flip cards and match pairs usin
 - Restart button to replay instantly
 - Responsive and clean UI
 
----
-
 ## Built With
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript 
 - Font Awesome Icons
-
----
 
 ## How to Play
 1. Look at the next target icon
@@ -35,21 +28,15 @@ A fun interactive memory card game where players flip cards and match pairs usin
 4. Match all pairs to win the game
 5. Try to finish with the least moves
 
----
-
 ## Restart Game
 You can restart anytime using:
 - Restart button in UI
 - Browser refresh
 
----
-
 ## Win Screen Icons Used
 - `<i class="fas fa-trophy"></i>`
 - `<i class="fas fa-star"></i>`
 - `<i class="fas fa-medal"></i>`
-
----
 
 ## Preview
 Add screenshot here:
