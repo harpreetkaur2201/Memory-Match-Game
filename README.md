@@ -37,5 +37,5 @@ You can restart anytime using:
 
 ## Preview 
 
-<img width="1331" height="862" alt="Screenshot 2026-05-11 141646" src="https://github.com/user-attachments/assets/f99634b8-ec4a-4d38-b548-1cf6d2549bd0" />)
+<img width="1331" height="862" alt="Screenshot 2026-05-11 141646" src="https://github.com/user-attachments/assets/f99634b8-ec4a-4d38-b548-1cf6d2549bd0" />
 
