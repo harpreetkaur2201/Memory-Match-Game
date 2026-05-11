@@ -27,10 +27,15 @@ The goal is to complete the board using the fewest moves possible.
 4. Match all pairs to win the game
 5. Try to finish with the least moves
 
+<img width="1387" height="863" alt="Screenshot 2026-05-11 141531" src="https://github.com/user-attachments/assets/093989a0-8a5c-48ad-bb05-cb8b2c5ed873" />
+
+
 ## 🔄 Restart Game
 You can restart anytime using:
 - Restart button in UI
 - Browser refresh
+
+<img width="1331" height="862" alt="Screenshot 2026-05-11 141646" src="https://github.com/user-attachments/assets/f99634b8-ec4a-4d38-b548-1cf6d2549bd0" />
 
 ## 🏅 Win Screen Icons Used
 - `<i class="fas fa-trophy"></i>`
