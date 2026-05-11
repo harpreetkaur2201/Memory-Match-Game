@@ -35,13 +35,5 @@ You can restart anytime using:
 - Restart button in UI
 - Browser refresh
 
-<img width="1331" height="862" alt="Screenshot 2026-05-11 141646" src="https://github.com/user-attachments/assets/f99634b8-ec4a-4d38-b548-1cf6d2549bd0" />
+## Preview [Game Preview](<img width="1331" height="862" alt="Screenshot 2026-05-11 141646" src="https://github.com/user-attachments/assets/f99634b8-ec4a-4d38-b548-1cf6d2549bd0" />)
 
-## 🏅 Win Screen Icons Used
-- `<i class="fas fa-trophy"></i>`
-- `<i class="fas fa-star"></i>`
-- `<i class="fas fa-medal"></i>`
-
-## Preview
-Add screenshot here:
-![Game Preview](img/screenshot.png)
