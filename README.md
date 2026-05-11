@@ -1,6 +1,6 @@
 ## 🎮 Memory Match Game
 
-A fun and interactive memory card game where players flip cards and match pairs using logic and memory skills 🧠✨
+A fun and interactive memory card game where players flip cards and match pairs using logic and memory skills. 
 The goal is to complete the board using the fewest moves possible.
 
 ## Live Demo [Memory Game](https://harpreetkaur2201.github.io/Memory-Match-Game/)
